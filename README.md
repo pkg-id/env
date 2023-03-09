@@ -2,10 +2,12 @@
 
 [![GoDoc](https://godoc.org/github.com/pkg-id/env?status.svg)](https://godoc.org/github.com/pkg-id/env)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/pkg-id/env/master/LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/pkg-id/env)](https://goreportcard.com/report/github.com/pkg-id/env)
+
 
 env is a simple Go package that makes it easy to retrieve environment variables and provide fallback values if the specified key is not present. It also offers parsing of environment variables to various data types.
 
-> This package is load or parse the dot env file. To load the dot env file, use [godotenv](https://github.com/joho/godotenv) package.
+> This package is not load the dot env file. To load the dot env file, use [godotenv](https://github.com/joho/godotenv) package.
 
 ## Installation
 
